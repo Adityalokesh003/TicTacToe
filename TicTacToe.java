@@ -23,92 +23,49 @@
 		
 		 switch(element){
 			 case 1: arr[element-1]=ch;
-					 for(element=1;element<=arr.length;element++){
-						 
-						 System.out.printf("                ["+"%2c"+" ]     ",arr[element-1]);
-						 if((element)%3==0){ System.out.print("\n\n\n");}
-					 }
-					 System.out.print("\n");
-					 winner();
+					
 					 break;
 			case 2: arr[element-1]=ch;
-					 for(element=1;element<=arr.length;element++){
-						 
-						 System.out.printf("                ["+"%2c"+" ]     ",arr[element-1]);
-						 if((element)%3==0){ System.out.print("\n\n\n");}
-					 }
-					 System.out.print("\n");
-					 winner();
+					  
 					 break;
 					 
 			case 3: arr[element-1]=ch;
-					 for(element=1;element<=arr.length;element++){
-						 
-						 System.out.printf("                ["+"%2c"+" ]     ",arr[element-1]);
-						 if((element)%3==0){ System.out.print("\n\n\n");}
-					 }
-					 System.out.print("\n");
-					 winner();
+					  
 					 break;
 			case 4: arr[element-1]=ch;
-					 for(element=1;element<=arr.length;element++){
-						 
-						 System.out.printf("                ["+"%2c"+" ]     ",arr[element-1]);
-						 if((element)%3==0){ System.out.print("\n\n\n");}
-					 }
-					 System.out.print("\n");
-					 winner();
+					  
 					 break;
 			 
 			case 5: arr[element-1]=ch;
-					 for(element=1;element<=arr.length;element++){
-						 
-						 System.out.printf("                ["+"%2c"+" ]     ",arr[element-1]);
-						 if((element)%3==0){ System.out.print("\n\n\n");}
-					 }
-					 System.out.print("\n");
-					 winner();
+					  
 					 break;
 			case 6: arr[element-1]=ch;
-					 for(element=1;element<=arr.length;element++){
-						 
-						 System.out.printf("                ["+"%2c"+" ]     ",arr[element-1]);
-						 if((element)%3==0){ System.out.print("\n\n\n");}
-					 }
-					 System.out.print("\n");
-					 winner();
+					  
 					 break;
 					 
 			case 7: arr[element-1]=ch;
-					 for(element=1;element<=arr.length;element++){
-						 
-						 System.out.printf("                ["+"%2c"+" ]     ",arr[element-1]);
-						 if((element)%3==0){ System.out.print("\n\n\n");}
-					 }
-					 System.out.print("\n");
-					 winner();
+					  
 					 break;
 			case 8: arr[element-1]=ch;
-					 for(element=1;element<=arr.length;element++){
-						 
-						 System.out.printf("                ["+"%2c"+" ]     ",arr[element-1]);
-						 if((element)%3==0){ System.out.print("\n\n\n");}
-					 }
-					 System.out.print("\n");
-					 winner();
+					  
 					 break;
 			case 9: arr[element-1]=ch;
-					 for(element=1;element<=arr.length;element++){
-						 
-						 System.out.printf("                ["+"%2c"+" ]     ",arr[element-1]);
-						 if((element)%3==0){ System.out.print("\n\n\n");}
-					 }
-					 System.out.print("\n");
-					 winner();
+					  
 					  
 					 break;
 			 
 		 }
+		 
+		 
+		 
+		 
+		  for(element=1;element<=arr.length;element++){
+						 
+						 System.out.printf("                ["+"%2c"+" ]     ",arr[element-1]);
+						 if((element)%3==0){ System.out.print("\n\n\n");}
+					 }
+					 System.out.print("\n");
+					 winner();
 		 
 	 }
 	 

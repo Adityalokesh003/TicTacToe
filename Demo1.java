@@ -1,6 +1,8 @@
  
  
 import java.util.*;
+import java.io.*;
+
 public class Demo1{
 
 	public static void main(String args[])throws Exception{
@@ -17,8 +19,8 @@ public class Demo1{
 	System.out.println("\n\n\n                                 Game Started ");
 	Thread.sleep(500);
 	
-	
 	TicTacToe obj=new TicTacToe();
+	
 	System.out.print("Player-1:- \n              Enter your Name:");
 	 obj.player1Name = new Scanner(System.in).nextLine();
 	 
@@ -31,11 +33,13 @@ public class Demo1{
 	
 	obj.fill();
 	for(int itr=1;itr<=9;itr++){if(obj.status){break;}
+	int element=0;
 		if((itr%2)!=0){
 		System.out.println( obj.player1Name+" turn");
 		System.out.println("Enter your Box no:  i.e, form 1 to 9");
+		
 		while(true){ 
-			int element=new Scanner(System.in).nextInt();
+			try{element=(new Scanner(System.in)).nextInt();}catch(Exception e){System.out.println("enter valid digit not character");}
 			 
 			
   			/*if(element<1 || element>9){System.out.println("Enter your correct Box no: i.e, from 1 to 9");
@@ -61,7 +65,7 @@ public class Demo1{
 			System.out.println( obj.player2Name+" turn");
 		System.out.println("Enter your Box no:  i.e, form 1 to 9");
 		while(true){ 
-			int element=new Scanner(System.in).nextInt();
+			try{element=(new Scanner(System.in)).nextInt();}catch(Exception e){System.out.println("enter valid digit not character");}
 			 
 			
   			/*if(element<1 || element>9){System.out.println("Enter your correct Box no: i.e, from 1 to 9");
